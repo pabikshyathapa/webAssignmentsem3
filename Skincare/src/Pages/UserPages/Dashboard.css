@@ -1,0 +1,30 @@
+/* Add this CSS to your Dashboard.css file */
+
+.bodyheight {
+    padding: 20px;
+}
+
+.bodytoaddproduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.Productcard {
+    /* Your existing styling for Productcard */
+    /* Make sure your Productcard component is designed to be responsive */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .bodytoaddproduct {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .bodyheight {
+        padding: 10px;
+    }
+}

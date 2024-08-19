@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-width: 320px;
+    min-height: 100vh; /* Ensure the body takes full viewport height */
+    background-color: #ffffff; /* Match the background color of .loginpage */
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7FFFF;
+    width: 400px; /* Set the width to 400px */
+    height: 500px; /* Set the height to 400px */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logininput {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #80bfd8;
+    border-radius: 5px;
+}
+
+.ancher, .ancher2 {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .loginpage {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+

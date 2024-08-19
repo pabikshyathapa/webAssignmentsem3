@@ -1,0 +1,33 @@
+/* Slideshow Container */
+.slideshow-container {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+/* Slides */
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: 70vh;
+}
+
+/* Active Slide */
+.slide.active {
+    display: block;
+    animation: fade 0.1s ease-in;
+}
+
+/* Fade Animation */
+@keyframes fade {
+    from {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,79 @@
+/* AddProduct.css */
+.addproduct {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #090909;
+    border-radius: 5px;
+    background-color: #80bfd8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addheader {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    width: 900px;
+    color: #090909;
+}
+
+.addlabel {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #090909;
+}
+
+.addinput {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: #ffffff; /* Make input fields' background white */
+    color: #090909; /* Make input text black */
+    border: 1px solid #090909; /* Add a black border */
+}
+
+.addbttn {
+    background-color: #80bfd8;
+    color: #090909;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.addbttn:hover {
+    background-color: #090909;
+    color: #ffffff; /* Make button text white on hover */
+}
+
+/* Additional styles for file input */
+.addinput[type="file"] {
+    border: 1px solid #090909; /* Add a black border */
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: #ffffff; /* Make file input background white */
+    color: #090909; /* Make file input text black */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .addheader {
+        font-size: 1.5rem;
+    }
+
+    .addlabel, .addinput {
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+
+    .addbttn {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+}
